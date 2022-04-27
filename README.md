@@ -1,7 +1,8 @@
 # ArduinoDMX
 
-This code snippit wil output a DMX signal on the TX pin of the arduino (pin 1)
-DMX.write(A, B) will give any DMX address A the value B (between 0 and 255) via 
+This code wil output a DMX signal on the TX pin of the arduino (pin 1)
+
+DMX.write(A, B) will give a DMX address A the value B (between 0 and 255)  
 
 Once the arduino is working, you need to add a drive chip to convert the ardiuno 0 to 5 volt signal into a -2,5v to 2,5v signal.
 
